@@ -24,4 +24,8 @@ El endpoint desarrollado para realizar las consultas es */cliente/*. A continuac
         "dependientes" : 3
     }
     ```
+
+Los registros insertados durante las pruebas se pueden encontrar en la imagen **Registros.PNG** contenida en el proyecto.
+
+
 *NOTA:* Es necesario modificar la cadena de conexión que se encuentra en el archivo data.py con las credenciales de la base de datos MySQL en la que se ejecute el proyecto. De igual forma es necesario ejecutar el script contenido en el proyecto.

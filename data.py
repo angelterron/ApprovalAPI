@@ -40,7 +40,7 @@ def insertar(persona):
 
     # abrir una conexión en SQL alchemy
     # IMPORTANTE: reemplazar 'user' y 'password' por los correspondientes a la base de datos
-    conn = create_engine("mysql+pymysql://user:password@localhost/clientes_approval_dev")
+    conn = create_engine("mysql+pymysql://root:Manaphy1@localhost/clientes_approval_dev")
     # Obtener el metadata de la base de datos
     metadata = MetaData(conn)
     # Reflejar la base de datos clientes para tener toda su información y estructura
