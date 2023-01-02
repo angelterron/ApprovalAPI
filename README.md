@@ -24,5 +24,4 @@ El endpoint desarrollado para realizar las consultas es */cliente/*. A continuac
         "dependientes" : 3
     }
     ```
-
-
+*NOTA:* Es necesario modificar la cadena de conexión que se encuentra en el archivo data.py con las credenciales de la base de datos MySQL en la que se ejecute el proyecto. De igual forma es necesario ejecutar el script contenido en el proyecto.
